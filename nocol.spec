@@ -5,10 +5,6 @@ Version:	4.3.1
 Release:	2
 License:	GPL
 Group:		Networking/Utilities
-Group(de):	Netzwerkwesen/Werkzeuge
-Group(es):	Red/Utilitarios
-Group(pl):	Sieciowe/Narzêdzia
-Group(pt_BR):	Rede/Utilitários
 Source0:	http://www.netplex-tech.com/software/nocol/downloads/%{name}-%{version}.tar.gz
 URL:		http://www.netplex-tech.com/software/nocol/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
