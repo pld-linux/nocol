@@ -4,6 +4,7 @@ Version:	4.3.1
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
+Group(de):	Netzwerkwesen/Werkzeuge
 Group(pl):	Sieciowe/Narzêdzia
 Source0:	%{name}-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -29,7 +30,7 @@ localhost
 root@localhost
 root@localhost
 gcc
-$RPM_OPT_FLAGS -I/usr/include/ncurses
+%{rpmcflags} -I/usr/include/ncurses
 yacc
 /usr/bin/perl
 EOF
