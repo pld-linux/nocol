@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.netplex-tech.com/software/nocol/downloads/%{name}-%{version}.tar.gz
+# Source0-md5:	e054261e64f7683b5661f42ad37db15e
 URL:		http://www.netplex-tech.com/software/nocol/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
