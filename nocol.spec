@@ -2,7 +2,7 @@ Summary:	Network Operation Center On-Line
 Summary(pl):	Centrum Operacji Sieciowych
 Name:		nocol
 Version:	4.3.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Group(de):	Netzwerkwesen/Werkzeuge
@@ -49,7 +49,9 @@ yacc
 /usr/bin/perl
 EOF
 
-%{__make}
+%{__make} << EOF
+make
+EOF
 
 %install
 rm -rf $RPM_BUILD_ROOT
