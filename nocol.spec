@@ -21,7 +21,7 @@ extensible and new monitors can be added easily.
 
 %description -l pl
 NOCOL/SNIPS (Network Operation Center On-Line) jest pakietem
-monitoruj±cym sieæ dzia³±j±cym na uniksach, który mo¿e monitorowaæ
+monitoruj±cym sieæ dzia³aj±cym na uniksach, który mo¿e monitorowaæ
 sieæ i takie cechy systemu jak osi±galno¶æ ICMP czy RPC, zmienne RMON,
 serwery DNS, obci±¿enie sieci, osi±galno¶æ portów, wydajno¶æ
 komputera, pu³apki SNMP, obci±¿enie linii modemowej, serwisy AppleTalk
