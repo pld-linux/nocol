@@ -40,13 +40,13 @@ localhost
 root@localhost
 root@localhost
 gcc
-%{rpmcflags} -I/usr/include/ncurses
+%{rpmcflags} -I%{_includedir}/ncurses
 yacc
-/usr/bin/perl
+%{_bindir}/perl
 EOF
 
 %{__make} << EOF
-make
+%{__make}
 EOF
 
 %install
