@@ -41,7 +41,7 @@ localhost
 root@localhost
 root@localhost
 gcc
-%{rpmcflags} -I%{_includedir}/ncurses
+%{rpmcflags} -I/usr/include/ncurses
 yacc
 %{_bindir}/perl
 EOF
