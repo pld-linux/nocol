@@ -1,5 +1,5 @@
 Summary:	Network Operation Center On-Line
-Summary(pl):	Centrum Operacji Sieciowych
+Summary(pl.UTF-8):   Centrum Operacji Sieciowych
 Name:		nocol
 Version:	4.3.1
 Release:	2
@@ -19,14 +19,14 @@ performance, SNMP traps, modem line usage, appletalk & novell
 routes/services, BGP peers, syslog files, etc. The software is
 extensible and new monitors can be added easily.
 
-%description -l pl
+%description -l pl.UTF-8
 NOCOL/SNIPS (Network Operation Center On-Line) jest pakietem
-monitoruj±cym sieæ dzia³aj±cym na uniksach, który mo¿e monitorowaæ
-sieæ i takie cechy systemu jak osi±galno¶æ ICMP czy RPC, zmienne RMON,
-serwery DNS, obci±¿enie sieci, osi±galno¶æ portów, wydajno¶æ
-komputera, pu³apki SNMP, obci±¿enie linii modemowej, serwisy AppleTalk
-i Novell, po³±czenia BGP, pliki logów itp. To oprogramowanie jest
-rozszerzalne i nowe monitory mog± byæ dodawane w prosty sposób.
+monitorujÄ…cym sieÄ‡ dziaÅ‚ajÄ…cym na uniksach, ktÃ³ry moÅ¼e monitorowaÄ‡
+sieÄ‡ i takie cechy systemu jak osiÄ…galnoÅ›Ä‡ ICMP czy RPC, zmienne RMON,
+serwery DNS, obciÄ…Å¼enie sieci, osiÄ…galnoÅ›Ä‡ portÃ³w, wydajnoÅ›Ä‡
+komputera, puÅ‚apki SNMP, obciÄ…Å¼enie linii modemowej, serwisy AppleTalk
+i Novell, poÅ‚Ä…czenia BGP, pliki logÃ³w itp. To oprogramowanie jest
+rozszerzalne i nowe monitory mogÄ… byÄ‡ dodawane w prosty sposÃ³b.
 
 %prep
 %setup -q
