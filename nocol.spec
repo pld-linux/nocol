@@ -1,5 +1,5 @@
 Summary:	Network Operation Center On-Line
-Summary(pl.UTF-8):   Centrum Operacji Sieciowych
+Summary(pl.UTF-8):	Centrum Operacji Sieciowych
 Name:		nocol
 Version:	4.3.1
 Release:	2
